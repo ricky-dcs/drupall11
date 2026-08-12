@@ -31,7 +31,9 @@
 *.gz
 
 # env-file
-/.env*
+.env*
+!.env.example
+
 
 # .htaccess
 .htaccess
