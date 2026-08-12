@@ -1,0 +1,37 @@
+# Files and directories suggested to be ignored by Drupal
+# @see https://git.drupalcode.org/project/drupal/-/blob/10.0.x/example.gitignore
+/web/core
+/vendor/
+/web/sites/*/settings.*.php
+/web/sites/*/services*.yml
+/web/sites/*/files
+/web/sites/*/private
+/web/sites/simpletest
+
+# Directories specific to this template
+/web/libraries
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore VS code config
+.vscode/
+
+# Ignore backup misc files
+*.sql
+*.zip
+*.gz
+
+# env-file
+/.env*
+
+# .htaccess
+.htaccess
