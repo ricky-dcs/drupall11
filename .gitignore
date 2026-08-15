@@ -15,6 +15,9 @@
 /web/profiles/contrib
 /web/themes/contrib
 
+# Production config files
+/config/*
+
 # OS X
 .DS_Store
 .AppleDouble
