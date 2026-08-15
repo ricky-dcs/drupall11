@@ -2,6 +2,7 @@
 # @see https://git.drupalcode.org/project/drupal/-/blob/10.0.x/example.gitignore
 /web/core
 /vendor/
+/web/sites/*/settings.php
 /web/sites/*/settings.*.php
 /web/sites/*/services*.yml
 /web/sites/*/files
@@ -33,7 +34,3 @@
 # env-file
 .env*
 !.env.example
-
-
-# .htaccess
-.htaccess
