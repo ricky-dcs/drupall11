@@ -1,0 +1,10 @@
+.ddev
+config
+
+.dockerignore
+.env
+.gitattributes
+.gitignore
+dockerfile
+LICENSE.txt
+*.sql.gz

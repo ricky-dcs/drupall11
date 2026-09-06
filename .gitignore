@@ -33,6 +33,7 @@
 *.sql
 *.zip
 *.gz
+dockerfile_backup*
 
 # env-file
 .env*

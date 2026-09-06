@@ -1,6 +1,6 @@
 services:
   drupal:
-    image: drupal:11.3.16-php8.4-apache
+    image: drupal11-test-image:v1
     restart: unless-stopped
     ports:
       - "127.0.0.1:8080:80"
