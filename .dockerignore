@@ -1,5 +1,6 @@
 .ddev
 config
+backup
 
 .dockerignore
 .env
