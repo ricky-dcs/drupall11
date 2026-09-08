@@ -30,10 +30,10 @@
 .vscode/
 
 # Ignore backup misc files
+/backup
 *.sql
 *.zip
 *.gz
-dockerfile_backup*
 
 # env-file
 .env*
