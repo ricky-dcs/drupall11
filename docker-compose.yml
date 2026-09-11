@@ -1,6 +1,6 @@
 services:
   drupal:
-    image: drupal-11-image:v1
+    image: drupal-11-image:v1.1
     restart: unless-stopped
     ports:
       - ${DRUPAL_PORTS}

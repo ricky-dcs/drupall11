@@ -1,5 +1,5 @@
 # Stage 1: Build Environment
-FROM drupal:php8.5-apache AS build-stage
+FROM drupal:php8.4-apache AS build-stage
 
 # Set working directory
 WORKDIR /opt/drupal
