@@ -1,11 +1,13 @@
 .ddev
-config
 backup
+vendor
 
 .dockerignore
 .env
+.git
 .gitattributes
 .gitignore
 dockerfile
 LICENSE.txt
 *.sql.gz
+CLAUDE.md
