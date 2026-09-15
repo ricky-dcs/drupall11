@@ -15,12 +15,12 @@
         }
     ],
     "require": {
-      "drupal/admin_toolbar": "^3.6",
-      "drupal/core-composer-scaffold": "^11.4",
-      "drupal/core-recipe-unpack": "^11.4",
-      "drupal/core-recommended": "^11.4",
-      "composer/installers": "^2.3",
-      "drush/drush": "^13.7"
+        "composer/installers": "^2.3",
+        "drupal/admin_toolbar": "^3.6",
+        "drupal/core-composer-scaffold": "^11.4",
+        "drupal/core-recipe-unpack": "^11.4",
+        "drupal/core-recommended": "^11.4",
+        "drush/drush": "^13.7"
     },
     "require-dev": {
         "drupal/devel": "^5.5",
